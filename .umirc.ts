@@ -6,7 +6,7 @@ export default defineConfig({
   // more config: https://d.umijs.org/config,
   logo:"/gongpai.png",
   favicon:"/gongpai.png",
-  publicPath:"/public/",
+  // publicPath:"/public/",
   styles:[
     `
 .__dumi-default-layout-hero {
