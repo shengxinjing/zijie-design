@@ -31,6 +31,9 @@ export default defineConfig({
 .__dumi-default-layout-features{
   padding-bottom:10px !important;
 }
+.__dumi-default-layout-features>dl dt{
+  font-weight:bold !important;
+}
     `
   ]
 });
