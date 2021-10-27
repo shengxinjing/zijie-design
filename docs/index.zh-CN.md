@@ -14,7 +14,7 @@ features:
     desc: 全面开源的企业级产品设计系统,智能设计体系 连接轻盈体验 <br>[访问](https://arco.design/)
   - icon: /time.svg
     title: Other Design
-    desc: 更多更好的企业级产品设计系统，尽请期待<br>[访问](http://zijie.design/)
+    desc: 更多更好的企业级产品设计系统，尽请期待, 据说还有好几个要开源<br>[访问](http://zijie.design/)
 footer: Powered by [Ant Design](https://ant.design/index-cn) and [dumi](https://d.umijs.org)
 ---
 
