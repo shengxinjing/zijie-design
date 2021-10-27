@@ -9,7 +9,7 @@ features:
   - icon: /semi.svg
     title: Semi Design
     desc: A modern, comprehensive, flexible design system that gives you all modular blocks you need to build sensible web apps & SaaS products.<br>[Get Started](https://semi.design/)
-  - icon: /arco.png
+  - icon: /arco.svg
     title: Arco Design
     desc: Intelligent design system, Connect swift experience, Fully open source enterprise-level product design system.<br>[Get Started](https://arco.design/)
   - icon: /time.svg
