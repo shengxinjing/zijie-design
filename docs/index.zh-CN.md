@@ -15,7 +15,7 @@ features:
   - icon: /time.svg
     title: Other Design
     desc: 更多更好的企业级产品设计系统，尽请期待<br>[访问](http://zijie.design/)
-footer: Powered by [Ant Design](https://ant.design/index-cn)
+footer: Powered by [Ant Design](https://ant.design/index-cn) and [dumi](https://d.umijs.org)
 ---
 
 <!-- ## Hello dumi! -->

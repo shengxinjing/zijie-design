@@ -15,7 +15,7 @@ features:
   - icon: /time.svg
     title: Other Design
     desc: More and better enterprise product design system will coming soon.<br>[Get Started](https://zijie.design/)
-footer: Powered by [Ant Design](https://ant.design/index-cn)
+footer: Powered by [Ant Design](https://ant.design/index-cn) and [dumi](https://d.umijs.org/zh-CN)
 ---
 
 
