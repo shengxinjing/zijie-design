@@ -21,6 +21,19 @@ export default defineConfig({
       // 更多 rule 配置访问 https://github.com/umijs/dumi/blob/master/packages/theme-mobile/src/typings/config.d.ts#L7
     }
   },
+  script:[
+`
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2695c2b4efe74b00a59f038590429c05";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+`
+
+  ],
   // publicPath:"/public/",
   styles:[
     `
