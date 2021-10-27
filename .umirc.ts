@@ -9,9 +9,7 @@ export default defineConfig({
   // publicPath:"/public/",
   styles:[
     `
-.__dumi-default-layout-hero {
-  padding:40px 0 !important; 
-}
+
 .__dumi-default-layout-hero button{
   display:none;
 }
@@ -21,3 +19,7 @@ export default defineConfig({
     `
   ]
 });
+
+// .__dumi-default-layout-hero {
+//   padding:40px 0 !important; 
+// }
