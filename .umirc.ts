@@ -28,6 +28,9 @@ export default defineConfig({
 .__dumi-default-layout-hero button{
   display:none;
 }
+.__dumi-default-search{
+  margin-right:10px;
+}
 .__dumi-default-layout-features{
   padding-bottom:10px !important;
 }
