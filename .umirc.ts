@@ -1,25 +1,23 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'Zijie Design',
+  // title: 'Zijie Design',
   mode: 'site',
-  // more config: https://d.umijs.org/config,
-  logo:"/gongpai.png",
-  favicon:"/gongpai.png",
-  themeConfig: {
-    carrier: 'dumi', // 设备状态栏左侧的文本内容
-    hd: {
-      // umi-hd 的 750 高清方案（默认值）
-      // [{ mode: 'vw', options: [100, 750] }],
-      // 禁用高清方案
-      // rules: [],
-      // // 根据不同的设备屏幕宽度断点切换高清方案
-      rules: [
-        { maxWidth: 375, mode: 'vw', options: [100, 750] },
-        { minWidth: 376, maxWidth: 750, mode: 'vw', options: [100, 1500] },
-      ],
-      // 更多 rule 配置访问 https://github.com/umijs/dumi/blob/master/packages/theme-mobile/src/typings/config.d.ts#L7
-    }
+  // // more config: https://d.umijs.org/config,
+  // logo:"/gongpai.png",
+  // favicon:"/gongpai.png",
+  menus:{
+    // '/guide':[{title:'彩蛋',path:"test/info.md"}]
+  },
+  navs: {
+    'en-US': [
+      null,
+      { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
+    ],
+    'zh-CN': [
+      null,
+      { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
+    ],
   },
   scripts:[
 `
@@ -41,8 +39,14 @@ var _hmt = _hmt || [];
 .__dumi-default-layout-hero button{
   display:none;
 }
-.__dumi-default-search{
-  margin-right:10px;
+.__dumi-default-navbar-tool{
+  margin-left:10px !important; 
+}
+.__dumi-default-search + span{
+  margin-right:-20px;
+}
+.__dumi-default-search + span{
+  display:none !important; 
 }
 .__dumi-default-layout-features{
   padding-bottom:10px !important;
