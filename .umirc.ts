@@ -1,24 +1,24 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  // title: 'Zijie Design',
+  title: 'Zijie Design',
   mode: 'site',
   // // more config: https://d.umijs.org/config,
-  // logo:"/gongpai.png",
-  // favicon:"/gongpai.png",
+  logo:"/gongpai.png",
+  favicon:"/gongpai.png",
   menus:{
     // '/guide':[{title:'彩蛋',path:"test/info.md"}]
   },
-  navs: {
-    'en-US': [
-      null,
-      { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
-    ],
-    'zh-CN': [
-      null,
-      { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
-    ],
-  },
+  // navs: {
+  //   'en-US': [
+  //     null,
+  //     { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
+  //   ],
+  //   'zh-CN': [
+  //     null,
+  //     { title: 'GitHub', path: 'https://github.com/shengxinjing/zijie-design' },
+  //   ],
+  // },
   scripts:[
 `
 var _hmt = _hmt || [];
